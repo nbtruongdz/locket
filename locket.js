@@ -51,10 +51,11 @@ if (ua.includes("Locket")) {
         feature_discovery_popup_config: JSON.stringify({
             tag: "LOCKET GOLD",
             tag_gradient: true,
-            tag_style: "gold_gradient",
-            title: "Lên Locket Gold rồi đó 😎",
+            tag_style: "locket vip",
+            title: "Lên Locket Gold vv rồi nhé 😎",
             feature_set: [
                 {
+                    title: "Locket vĩnh viễn bt NBT ✅",
                     title: "Nhớ follow kênh tiktok @truongcon_jqk ✨",
                     body: "Một follow của bạn, một niềm vui của mình 💛",
                     imageURL: "https://cdn.upanhlaylink.com/i/IlnSV2uU.png"
