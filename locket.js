@@ -49,7 +49,7 @@ if (ua.includes("Locket")) {
             profile_banner: true
         }),
         feature_discovery_popup_config: JSON.stringify({
-            tag: "LOCKET GOLD",
+            tag: "LOCKET GOLD VV",
             tag_gradient: true,
             tag_style: "locket vip",
             title: "Lên Locket Gold vv rồi nhé 😎",
