@@ -55,14 +55,14 @@ if (ua.includes("Locket")) {
             title: "Lên Locket Gold rồi đó 😎",
             feature_set: [
                 {
-                    title: "Nhớ follow kênh tiktok @duyvinh.09 ✨",
+                    title: "Nhớ follow kênh tiktok @truongcon_jqk ✨",
                     body: "Một follow của bạn, một niềm vui của mình 💛",
-                    imageURL: "https://i.ibb.co/gZ6HkyWT/L-n-Gold-R-i.png"
+                    imageURL: "https://cdn.upanhlaylink.com/i/IlnSV2uU.png"
                 }
             ],
             primary_button_title: "Xong",
             campaign: "locket_gold_welcome_v3",
-            start_at: "2020-01-01T00:00:00",
+            start_at: "2008-01-26T00:00:00",
             end_at: "2099-12-31T23:59:59",
             use_local_time_zone: true
         }),
