@@ -57,7 +57,7 @@ if (ua.includes("Locket")) {
                 {
                     title: "Nhớ follow kênh tiktok @truongcon_jqk ✨",
                     body: "Một follow của bạn, một niềm vui của mình ❤️‍🩹",
-                    imageURL: "https://cdn.upanhlaylink.com/i/5K3B5tAR.png"
+                    imageURL: "https://cdn.upanhlaylink.com/i/yVVZlhu1.png"
                 }
             ],
             primary_button_title: "Xong",
