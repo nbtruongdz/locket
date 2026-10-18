@@ -406,13 +406,13 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:buitruong", source: "remote", caption: { background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] }, max_lines: 1, text: "💻 truongcon_jqk", text_color: "#183153", type: "static_content" } },
                     { overlay_id: "caption:cu", source: "remote", caption: { background: { colors: ["#FFD6A5", "#FFF1A8", "#FFC4D6"] }, max_lines: 1, text: " cười tươi lên em 😁",text_color: "#633B24", type: "static_content" } },
                     { overlay_id: "caption:tuat", source: "remote", caption: { background: { colors: ["#2C1A0E", "#5D4037", "#D7A86E"] }, icon: { data: "🐕", type: "emoji" }, max_lines: 1, text: "Tuất con", text_color: "#FFFFFFE6", type: "static_content" } },
-                    { overlay_id: "caption:snake_vibes", source: "remote", caption: { background: { colors: ["#2E7D32", "#66BB6A"] }, icon: { data: "🫰🏻", type: "emoji" }, max_lines: 1, text: "đời là 1 canh bạc", localized_text: { en: "Snake Vibes", vn: "Chất thải" }, text_color: "#FFFFFFE6", type: "static_content" } },
+                    { overlay_id: "caption:snake_vibes", source: "remote", caption: { background: { colors: ["#2E7D32", "#66BB6A"] }, icon: { data: "🫰🏻", type: "emoji" }, max_lines: 1, text: "bắn chim", localized_text: { en: "bắn chim", vn: "Chất thải" }, text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:du_an_ma", source: "remote", caption: { background: { colors: ["#263238", "#455A64"] }, icon: { data: "👻", type: "emoji" }, max_lines: 1, text: "ngủ sớm đi em", text_color: "#FFFFFFE6", type: "static_content" } },
                     
                 ]
             },
             {
-                section: "🎨 Tình yêu & Cơm chó 💕",
+                section: "🎨 Tình yêu & Cơm chó 💕",i
                 items: [
                     { overlay_id: "caption:toi_nho_em", source: "remote", caption: { background: { colors: ["#FFFFFF", "#6D9EEB"] }, max_lines: 1, text: "보고 싶어 🥺", text_color: "#000000E6", type: "static_content" } },
                     { overlay_id: "caption:miss_you", source: "remote", caption: { background: { colors: ["#EC0C00", "#FF493F"] }, icon: { data: "🥰", type: "emoji" }, max_lines: 1, text: "Miss you", text_color: "#FFFFFFDB", type: "static_content" } },
