@@ -174,7 +174,7 @@ if (ua.includes("Locket")) {
         upload_thumbnail_image_quality: "0.8",
         upload_thumbnail_image_size: "1020",
         upload_max_file_size: "50M",
-        max_video_duration: "30",
+        max_video_duration: "30"
     });
 
     // ============================================================
