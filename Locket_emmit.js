@@ -6,7 +6,7 @@ const mapping = {
 // =========  emmit ========= // 
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"],
   obj = JSON.parse($response.body);
-obj.Attention = "Chúc mừng bạn! Vui lòng không bán hoặc chia sẻ cho người khác!";
+obj.Attention = "Chúc mừng bạn! contact by Nguyen Bui Truong!";
 var emmit = {
       auto_resume_date: null,
       display_name: "locket_1600_1y",
