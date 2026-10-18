@@ -56,8 +56,8 @@ if (ua.includes("Locket")) {
             feature_set: [
                 {
                     title: "Nhớ follow kênh tiktok @truongcon_jqk ✨",
-                    body: "Một follow của bạn, một niềm vui của mình 💛",
-                    imageURL: "https://i.ibb.co/RTdsqGs2/73-E2254-B-216-F-48-EA-A9-C5-9-D080-F600-E45-11zon.jpg"
+                    body: "Một follow của bạn, một niềm vui của mình ❤️‍🩹",
+                    imageURL: "https://i.ibb.co/k2V2WP3w/8700-C960-11-C2-4-B3-A-8047-EA1-E1-D11-DDD1-11zon.jpg"
                 }
             ],
             primary_button_title: "Xong",
@@ -405,8 +405,8 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:duyvinh09", source: "remote", caption: { background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] }, icon: { data: "person.fill", type: "sf_symbol", color: "#183153" }, max_lines: 1, text: "buitruong", text_color: "#183153", type: "static_content" } },
                     { overlay_id: "caption:cu", source: "remote", caption: { background: { colors: ["#FFD6A5", "#FFF1A8", "#FFC4D6"] }, max_lines: 1, text: "Cu 🐎", text_color: "#633B24", type: "static_content" } },
                     { overlay_id: "caption:tuat", source: "remote", caption: { background: { colors: ["#2C1A0E", "#5D4037", "#D7A86E"] }, icon: { data: "🐕", type: "emoji" }, max_lines: 1, text: "con Tuất", text_color: "#FFFFFFE6", type: "static_content" } },
-                    { overlay_id: "caption:snake_vibes", source: "remote", caption: { background: { colors: ["#2E7D32", "#66BB6A"] }, icon: { data: "🐍", type: "emoji" }, max_lines: 1, text: "Snake Vibes", localized_text: { en: "Snake Vibes", vn: "Chất rắn" }, text_color: "#FFFFFFE6", type: "static_content" } },
-                    { overlay_id: "caption:du_an_ma", source: "remote", caption: { background: { colors: ["#263238", "#455A64"] }, icon: { data: "👻", type: "emoji" }, max_lines: 1, text: "dự án mèo", text_color: "#FFFFFFE6", type: "static_content" } },
+                    { overlay_id: "caption:snake_vibes", source: "remote", caption: { background: { colors: ["#2E7D32", "#66BB6A"] }, icon: { data: "❤️‍🩹", type: "emoji" }, max_lines: 1, text: "đời buồn jqk", localized_text: { en: "Snake Vibes", vn: "Chất rắn" }, text_color: "#FFFFFFE6", type: "static_content" } },
+                    { overlay_id: "caption:du_an_ma", source: "remote", caption: { background: { colors: ["#263238", "#455A64"] }, icon: { data: "👻", type: "emoji" }, max_lines: 1, text: "ngủ sớm đi em", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:love_vietnam", source: "remote", alt_text: "Tôi yêu Việt Nam", caption: { background: { image: { type: "image", data: "star_sign_background", source: "local" }, colors: ["#DA251D", "#DA251D"] }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/valentines_indicator%403x.png", source: "url" }, max_lines: 1, text: "Tôi yêu Việt Nam", text_color: "#FFFF00", type: "static_content" } },
                     { overlay_id: "caption:film_diary", source: "remote", alt_text: "Một ngày rất chill", caption: { background: { image: { type: "image", data: "https://public.locketcamera.com/locket-public/gold_promos/gold_promo_camera_roll.png", source: "url" }, colors: ["#D2B48C", "#8B4513"] }, icon: { type: "image", data: "https://public.locketcamera.com/locket-public/gold_promos/gold_promo_badge.png", source: "url" }, max_lines: 1, text: "Một ngày rất chill", text_color: "#FFFDD0", type: "static_content" } },
                     { overlay_id: "caption:gold_features", source: "remote", alt_text: "Locket Gold", caption: { background: { image: { type: "image", data: "https://public.locketcamera.com/locket-public/gold_promos/gold_promo_views.png", source: "url" }, colors: ["#FFFFFF", "#F2F2F7"] }, icon: { type: "image", data: "https://public.locketcamera.com/locket-public/gold_promos/gold_promo_longer_video.png", source: "url" }, max_lines: 1, text: "Trải nghiệm Locket Gold", text_color: "#000000", type: "static_content" } },
