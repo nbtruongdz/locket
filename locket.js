@@ -2,7 +2,7 @@
 // Locket Remote Config Rewrite
 // Endpoint: firebaseremoteconfig.googleapis.com
 // Dùng cho: Loon / Quantumult X / Surge / Shadowrocket
-// Tác giả: @duyvinh09
+// Tác giả: @truongcon_jqk
 // Vui lòng khi chia sẽ hoặc lấy về, làm ơn để nguồn giúp mình. Mình cảm ơn
 // ============================================================
 
@@ -10,7 +10,7 @@ var ua = $request.headers["User-Agent"] || $request.headers["user-agent"] || "";
 var obj = JSON.parse($response.body);
 
 if (ua.includes("Locket")) {
-    obj.Attention = "Chúc mừng bạn! Vui lòng không sử dụng chúng dưới mục đích thương mại!";
+    obj.Attention = "Chúc mừng !";
     obj.entries = obj.entries || {};
 
     // ============================================================
@@ -172,7 +172,9 @@ if (ua.includes("Locket")) {
         upload_main_image_quality: "0.6",
         upload_main_image_size: "1440",
         upload_thumbnail_image_quality: "0.8",
-        upload_thumbnail_image_size: "1020"
+        upload_thumbnail_image_size: "1020",
+        upload_max_file_size: "50M",
+        max_video_duration: "30",
     });
 
     // ============================================================
@@ -401,13 +403,14 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
-                section: "🎨 Decorative by Duy Vinh",
+                section: "🎨 Decorative by Bui Truong",
                 items: [
-                    { overlay_id: "caption:duyvinh09", source: "remote", caption: { background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] }, max_lines: 1, text: "💻 duyvinh09", text_color: "#183153", type: "static_content" } },
+                    { overlay_id: "caption:buitruong", source: "remote", caption: { background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] }, max_lines: 1, text: "💻 truongcon_jqk", text_color: "#183153", type: "static_content" } },
                     { overlay_id: "caption:cu", source: "remote", caption: { background: { colors: ["#FFD6A5", "#FFF1A8", "#FFC4D6"] }, max_lines: 1, text: "Cu 🐎", text_color: "#633B24", type: "static_content" } },
                     { overlay_id: "caption:tuat", source: "remote", caption: { background: { colors: ["#2C1A0E", "#5D4037", "#D7A86E"] }, icon: { data: "🐕", type: "emoji" }, max_lines: 1, text: "Tuất", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:snake_vibes", source: "remote", caption: { background: { colors: ["#2E7D32", "#66BB6A"] }, icon: { data: "🐍", type: "emoji" }, max_lines: 1, text: "Snake Vibes", localized_text: { en: "Snake Vibes", vn: "Chất rắn" }, text_color: "#FFFFFFE6", type: "static_content" } },
-                    { overlay_id: "caption:du_an_ma", source: "remote", caption: { background: { colors: ["#263238", "#455A64"] }, icon: { data: "👻", type: "emoji" }, max_lines: 1, text: "dự án ma", text_color: "#FFFFFFE6", type: "static_content" } }
+                    { overlay_id: "caption:du_an_ma", source: "remote", caption: { background: { colors: ["#263238", "#455A64"] }, icon: { data: "👻", type: "emoji" }, max_lines: 1, text: "dự án ma", text_color: "#FFFFFFE6", type: "static_content" } },
+                    { overlay_id: "caption:cu", source: "remote", caption: { background: { colors: ["#FFD6A5", "#FFF1A8", "#FFC4D6"] }, max_lines: 1, text: "cười tươi lên em 😁", text_color: "#633B24", type: "static_content" } },
                 ]
             },
             {
