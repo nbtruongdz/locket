@@ -1,12 +1,111 @@
-//được tổng hợp bởi Nguyễn Bùi Trường//
-//zalo:0985204819
-//tiktok: @truongcon_jqk
-//uy tín tạo nên hương hiệu
+# Shadowrocket: 2026-10-19 10:20:12
+[General]
+bypass-system = true
+skip-proxy = *.local, *.crashlytics.com
+tun-excluded-routes = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
+update-url = https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/All_In_One.conf
+
+[Rule]
+AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,UDP)),REJECT
+AND,((DOMAIN,youtubei.googleapis.com),(PROTOCOL,UDP)),REJECT
+
+[URL Rewrite]
+# Chặn quảng cáo Google Video
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad _ reject-200
+
+# YouTube Ads
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads _ reject-200
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) _ reject-200
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext _ reject-200
+
+# General Video Ad request
+(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
+
+[Header Rewrite]
+http-request ^https?://api.revenuecat.com/.+/(receipts$|subscribers/?(.*?)*$) header-del x-revenuecat-etag
+http-request ^https?://api.revenuecat.com/.+/(receipts$|subscribers/?(.*?)*$) header-del X-RevenueCat-ETag
+http-request ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/user-customization-service\/v1\/customize$ header-del if-none-match
+
+[Map Local]
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data-type=text data="" status-code=200
+
+[Script]
+
+#Sub-Store
+#hostname = sub.store
+#************************************#
+
+#Youtube Premium (Search|Play Page|Short Video ||| PiP|Background Play)
+#hostname = *.googlevideo.com, youtubei.googleapis.com
+#************************************#
+
+#SpotifyPremium
+#hostname = spclient.wg.spotify.com
+#************************************#
+
+#SoundCloudGo+
+#hostname= api-mobile.soundcloud.com
+#************************************#
+
+#VSCO
+#************************************#
+
+#AlightMotion
+#hostname = us-central1-alight-creative.cloudfunctions.net
+#************************************#
+
+#PicsArt
+#hostname = api.picsart.com
+#************************************#
+
+#Wink
+#hostname = api-sub.meitu.com
+#************************************#
+
+#Truecaller
+#hostname = premium*.truecaller.com
+#************************************#
+
+#Lightroom
+#hostname =  photos.adobe.io
+#************************************#
+
+#Kinemaster
+#hostname =  api-account.kinemasters.com
+#************************************#
+
+#CamScanner
+#hostname = ap*.intsig.net
+#************************************#
+
+#BeautyPlus
+#hostname = api.mr.pixocial.com, newbeee-api.beautyplus.com
+#************************************#
 
 #LocketGold
 #hostname = api.revenuecat.com, firebaseremoteconfig.googleapis.com
-revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/nbtruongdz/locket/refs/heads/main/Locket_emmit.js, requires-body=true, max-size=-1, timeout=60
-deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/deleteHeader.js, timeout=60
-locket_rc = type=http-response, pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/locket-4252a\/.+, script-path=https://raw.githubusercontent.com/nbtruongdz/locket/refs/heads/main/locket.js, requires-body=true, max-size=-1, timeout=60
+locket_rc = type=http-response,engine=jsc,script-path=https://raw.githubusercontent.com/nbtruongdz/locket/refs/heads/main/locketduykhang.js,pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/locket-4252a\/.+,max-size=0,requires-body=true,timeout=60,script-update-interval=0,enable=true
 #************************************#
 
+#RevenueCatVip
+#hostname = api.revenuecat.com
+#RevenueCatDeleteHeader = type=http-request, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/deleteHeader.js, timeout=60
+#************************************#
+
+#iTunes
+#hostname = buy.itunes.apple.com
+#************************************#
+
+#Snow
+#hostname = user-snow-api.snow.me
+#************************************#
+
+#Meitu
+#hostname = h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com
+#************************************#
+
+[MITM]
+ca-passphrase = vTC6xDfV
+enable = true
+ca-p12 = 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
+hostname = %APPEND%, *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtube.com, -redirector*.googlevideo.com, premium*.truecaller.com, sub.store, api.revenuecat.com, firebaseremoteconfig.googleapis.com, api.rc-backup.com, buy.itunes.apple.com, spclient.wg.spotify.com, *spclient.spotify.com, api-mobile.soundcloud.com, api.picsart.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, photos.adobe.io, , ap*.intsig.net, api-account.kinemasters.com, api.mr.pixocial.com, newbeee-api.beautyplus.com, user-snow-api.snow.me, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, gs-loc.apple.com, gs-loc-cn.apple.com, bluedot.is.autonavi.com, bluedot.is.autonavi.com.gds.alibabadns.com
