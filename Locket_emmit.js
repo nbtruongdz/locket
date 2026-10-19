@@ -41,4 +41,4 @@ if (match) {
 } else obj.subscriber.subscriptions["locket_1600_1y"] = emmit, obj.subscriber.entitlements.pro = locketGold;
 $done({
   body: JSON.stringify(obj)
-});.
+});
