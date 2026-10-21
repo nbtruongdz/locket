@@ -265,7 +265,7 @@ if (ua.includes("Locket")) {
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
             uid: "midautumn_2026",
-            url: "https://i.postimg.cc/9FL6CKfB/F9A22E96-21E3-43D0-8AAB-8A84586242B5.png",
+            url: "https://i.postimg.cc/B6cZq3tM/4AA75DB7-5359-4C57-9783-2BAA31D3BCAB.png",
             // url: "https://i.ibb.co/RTm5P1n9/kitty-1.png",
             // url: "https://i.ibb.co/JjLZ3cvD/khung-ins.png",
             use_local_time_zone: true,
