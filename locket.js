@@ -56,7 +56,7 @@ if (ua.includes("Locket")) {
             feature_set: [
                 {
                     title: "Nhớ follow kênh tiktok @truongcon_jqk ✨",
-                    body: "Một follow của bạn, mình hết gay 😉",
+                    body: "Một follow của cậu, một niềm vui của tớ 💔",
                     imageURL: "https://cdn.upanhlaylink.com/i/yVVZlhu1.png"
                 }
             ],
@@ -404,9 +404,9 @@ if (ua.includes("Locket")) {
                 items: [
                     { overlay_id: "caption:duyvinh09", source: "remote", caption: { background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] }, icon: { data: "person.fill", type: "sf_symbol", color: "#183153" }, max_lines: 1, text: "chán chả buồn nói", text_color: "#183153", type: "static_content" } },
                     { overlay_id: "caption:cu", source: "remote", caption: { background: { colors: ["#FFD6A5", "#FFF1A8", "#FFC4D6"] }, max_lines: 1, text: "tui tên trường", text_color: "#633B24", type: "static_content" } },
-                    { overlay_id: "caption:vibe_khong_phai_ai", source: "remote", caption: { background: { colors: ["#80D8FF", "#A0F0E0", "#D9FFF5"] }, icon: { data: "🎧", type: "emoji" }, max_lines: 1, text: "làm tí lyrics nhỉ", text_color: "#174C58", type: "static_content" } },
+                    { overlay_id: "caption:vibe_khong_phai_ai2", source: "remote", caption: { background: { colors: ["#80D8FF", "#A0F0E0", "#D9FFF5"] }, icon: { data: "🎧", type: "emoji" }, max_lines: 1, text: "làm tí lyrics nhỉ", text_color: "#174C58", type: "static_content" } },
                     { overlay_id: "caption:tuat", source: "remote", caption: { background: { colors: ["#2C1A0E", "#5D4037", "#D7A86E"] }, icon: { data: "🐕", type: "emoji" }, max_lines: 1, text: "con Tuất này", text_color: "#FFFFFFE6", type: "static_content" } },
-                     { overlay_id: "caption:ngoan_xinh_iu2", source: "remote", caption: { background: { colors: ["#F3C1D4", "#F8DDE5", "#E8CFF0"] }, icon: { data: "🫰🏻", type: "emoji" }, max_lines: 1, text: "tớ bắn chim cậu", text_color: "#71465D", type: "static_content" } },
+                    { overlay_id: "caption:ngoan_xinh_iu2", source: "remote", caption: { background: { colors: ["#F3C1D4", "#F8DDE5", "#E8CFF0"] }, icon: { data: "🫰🏻", type: "emoji" }, max_lines: 1, text: "tớ bắn chim cậu", text_color: "#71465D", type: "static_content" } },
                     { overlay_id: "caption:du_an_ma", source: "remote", caption: { background: { colors: ["#263238", "#455A64"] }, icon: { data: "🤨", type: "emoji" }, max_lines: 1, text: "dạo này ổn chứ em", text_color:" #99ffcc", type: "static_content" } },
                     { overlay_id: "caption:du_an_meo", source: "remote", caption: { background: { colors: ["#9900FF", "#000000"] }, icon: { data: "💋", type: "emoji" }, max_lines: 1, text: "ngủ sớm đi em", text_color: "#99ffcc", type: "static_content" } },
                     { overlay_id: "caption:love_vietnam", source: "remote", alt_text: "Tôi yêu Việt Nam", caption: { background: { image: { type: "image", data: "star_sign_background", source: "local" }, colors: ["#DA251D", "#DA251D"] }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/valentines_indicator%403x.png", source: "url" }, max_lines: 1, text: "Tôi yêu Việt Nam", text_color: "#FFFF00", type: "static_content" } },
