@@ -56,7 +56,7 @@ if (ua.includes("Locket")) {
             feature_set: [
                 {
                     title: "Nhớ follow kênh tiktok @truongcon_jqk ✨",
-                    body: "Một follow của bạn, một niềm vui của mình ❤️‍🩹",
+                    body: "Một follow của bạn, mình hết gay 😉",
                     imageURL: "https://cdn.upanhlaylink.com/i/yVVZlhu1.png"
                 }
             ],
