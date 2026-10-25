@@ -401,7 +401,7 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:goodnight", source: "remote", daily_start_hour: 19.5, daily_end_hour: 24, caption: { background: { colors: ["#370C6F", "#575CD4"] }, icon: { data: "🌙", type: "emoji" }, max_lines: 1, text: "Goodnight", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:miss_you", source: "remote", caption: { background: { colors: ["#EC0C00", "#FF493F"] }, icon: { data: "🥰", type: "emoji" }, max_lines: 1, text: "Miss you", text_color: "#FFFFFFDB", type: "static_content" } },
                     { overlay_id: "caption:ootd", source: "remote", caption: { background: { colors: ["#FFFFFF", "#DBDBDB"] }, icon: { data: "😗", type: "emoji" }, max_lines: 1, text: "cafe tới roài kkk", text_color: "#101010E6", type: "static_content" } },
-                    { overlay_id: "caption:ootd", source: "remote", caption: { background: { colors: ["#FFFFFF", "#DBDBDB"] }, icon: { data: "😔", type: "emoji" }, max_lines: 1, text: "hết muốn nói ", text_color: "#101010E6", type: "static_content" } }
+                    { overlay_id: "caption:ootd2", source: "remote", caption: { background: { colors: ["#FFFFFF", "#DBDBDB"] }, icon: { data: "😔", type: "emoji" }, max_lines: 1, text: "hết muốn nói ", text_color: "#101010E6", type: "static_content" } }
                 ]
             },
             {
