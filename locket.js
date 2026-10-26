@@ -393,6 +393,192 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
+    section: "🥀 Bất cần & Trưởng thành ☕",
+    items: [
+        { 
+            overlay_id: "caption:indifferent_ke_the_nao_cung_duoc", 
+            source: "remote", 
+            caption: { 
+                background: { colors: ["#232526", "#414345"] }, 
+                icon: { data: "☕", type: "emoji" }, 
+                max_lines: 1, 
+                text: "Kệ, thế nào cũng được.", 
+                text_color: "#E0E0E0", 
+                type: "static_content" 
+            } 
+        },
+        { 
+            overlay_id: "caption:indifferent_doi_moi_tu_dung", 
+            source: "remote", 
+            caption: { 
+                background: { colors: ["#1F2937", "#111827"] }, 
+                icon: { data: "🚶", type: "emoji" }, 
+                max_lines: 1, 
+                text: "Đời mỏi, tự đứng.", 
+                text_color: "#F3F4F6", 
+                type: "static_content" 
+            } 
+        },
+        { 
+            overlay_id: "caption:indifferent_im_lang_la_cau_tra_loi", 
+            source: "remote", 
+            caption: { 
+                background: { colors: ["#2C3E50", "#000000"] }, 
+                icon: { data: "🤫", type: "emoji" }, 
+                max_lines: 1, 
+                text: "Im lặng là câu trả lời đắt nhất.", 
+                text_color: "#ECF0F1", 
+                type: "static_content" 
+            } 
+        },
+        { 
+            overlay_id: "caption:indifferent_biet_roi_kho_lam", 
+            source: "remote", 
+            caption: { 
+                background: { colors: ["#3E2723", "#1B1B1B"] }, 
+                icon: { data: "🙄", type: "emoji" }, 
+                max_lines: 1, 
+                text: "Biết rồi, khổ lắm, nói mãi.", 
+                text_color: "#D7CCC8", 
+                type: "static_content" 
+            } 
+        },
+        { 
+            overlay_id: "caption:indifferent_ai_song_thay_minh_dau", 
+            source: "remote", 
+            caption: { 
+                background: { colors: ["#141E30", "#243B55"] }, 
+                icon: { data: "🪞", type: "emoji" }, 
+                max_lines: 1, 
+                text: "Ai sống thay mình đâu.", 
+                text_color: "#CFD8DC", 
+                type: "static_content" 
+            } 
+        },
+        { 
+            overlay_id: "caption:indifferent_the_thoi_du_roi", 
+            source: "remote", 
+            caption: { 
+                background: { colors: ["#2D3748", "#1A202C"] }, 
+                icon: { data: "🍃", type: "emoji" }, 
+                max_lines: 1, 
+                text: "Thế thôi, đủ rồi.", 
+                text_color: "#E2E8F0", 
+                type: "static_content" 
+            } 
+        },
+        { 
+            overlay_id: "caption:indifferent_chuyen_nho_qua_roi", 
+            source: "remote", 
+            caption: { 
+                background: { colors: ["#1B2838", "#0A1017"] }, 
+                icon: { data: "⏳", type: "emoji" }, 
+                max_lines: 1, 
+                text: "Chuyện nhỏ, qua rồi.", 
+                text_color: "#C5C6C7", 
+                type: "static_content" 
+            } 
+        },
+        { 
+            overlay_id: "caption:indifferent_cu_nguoi_moi_ta", 
+            source: "remote", 
+            caption: { 
+                background: { colors: ["#333333", "#dd1818"] }, 
+                icon: { data: "🍂", type: "emoji" }, 
+                max_lines: 1, 
+                text: "Cũ người, mới ta.", 
+                text_color: "#FFFFFF", 
+                type: "static_content" 
+            } 
+        },
+        { 
+            overlay_id: "caption:indifferent_met_thi_nghi", 
+            source: "remote", 
+            caption: { 
+                background: { colors: ["#485563", "#29323c"] }, 
+                icon: { data: "🛌", type: "emoji" }, 
+                max_lines: 1, 
+                text: "Mệt thì nghỉ, ép làm gì.", 
+                text_color: "#ECEFF1", 
+                type: "static_content" 
+            } 
+        },
+        { 
+            overlay_id: "caption:indifferent_du_lon_de_im_lang", 
+            source: "remote", 
+            caption: { 
+                background: { colors: ["#093028", "#237A57"] }, 
+                icon: { data: "🦉", type: "emoji" }, 
+                max_lines: 1, 
+                text: "Đủ lớn để im lặng.", 
+                text_color: "#E8F5E9", 
+                type: "static_content" 
+            } 
+        },
+        { 
+            overlay_id: "caption:indifferent_mac_ke_thien_ha", 
+            source: "remote", 
+            caption: { 
+                background: { colors: ["#2C3E50", "#4CA1AF"] }, 
+                icon: { data: "🌊", type: "emoji" }, 
+                max_lines: 1, 
+                text: "Mặc kệ thiên hạ.", 
+                text_color: "#FFFFFF", 
+                type: "static_content" 
+            } 
+        },
+        { 
+            overlay_id: "caption:indifferent_tu_gieo_tu_gat", 
+            source: "remote", 
+            caption: { 
+                background: { colors: ["#3E2723", "#5D4037"] }, 
+                icon: { data: "🌱", type: "emoji" }, 
+                max_lines: 1, 
+                text: "Tự gieo, tự gặt.", 
+                text_color: "#EFEBE9", 
+                type: "static_content" 
+            } 
+        },
+        { 
+            overlay_id: "caption:indifferent_hoi_dau_ma_chap", 
+            source: "remote", 
+            caption: { 
+                background: { colors: ["#114357", "#F29492"] }, 
+                icon: { data: "💨", type: "emoji" }, 
+                max_lines: 1, 
+                text: "Hơi đâu mà chấp.", 
+                text_color: "#FFFFFF", 
+                type: "static_content" 
+            } 
+        },
+        { 
+            overlay_id: "caption:indifferent_binh_than_don_nhan", 
+            source: "remote", 
+            caption: { 
+                background: { colors: ["#2C3E50", "#3498DB"] }, 
+                icon: { data: "🧊", type: "emoji" }, 
+                max_lines: 1, 
+                text: "Bình thản đón nhận.", 
+                text_color: "#FFFFFF", 
+                type: "static_content" 
+            } 
+        },
+        { 
+            overlay_id: "caption:indifferent_song_cho_minh_xem", 
+            source: "remote", 
+            caption: { 
+                background: { colors: ["#0F2027", "#203A43", "#2C5364"] }, 
+                icon: { data: "🕶️", type: "emoji" }, 
+                max_lines: 1, 
+                text: "Sống cho mình xem.", 
+                text_color: "#FFFFFF", 
+                type: "static_content" 
+            } 
+        }
+    ]
+}
+,
+            {
                 section: "🎨 Decorative by Locket",
                 items: [
                     { overlay_id: "caption:toi_nho_em", source: "remote", caption: { background: { colors: ["#FFFFFF", "#6D9EEB"] }, max_lines: 1, text: "보고 싶어 🥺", text_color: "#000000E6", type: "static_content" } },
