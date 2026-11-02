@@ -716,21 +716,21 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:tuyen_duong", source: "remote", caption: { background: { colors: ["#D94A77", "#B82D59"] }, icon: { data: "checkmark.seal.fill", type: "sf_symbol" }, max_lines: 1, text: "Locket tuyên dương bạn cute", text_color: "#FFFFFF", type: "static_content" } }
                 ]
             },
-            {
+                        {
                 section: "🥀 Linh ta linh tinh,NBT ✨",
                 items: [
-                    { overlay_id: "caption:linh_ngu_di", source: "remote", caption: { background: { colors: ["#232526"] }, icon: { data: "😴", type: "emoji" }, max_lines: 1, text: "ngủ đi con", text_color: "#E0E0E0", type: "static_content" } },
-                    { overlay_id: "caption:linh_tinh_mong", source: "remote", caption: { background: { colors: ["#1F2937"] }, icon: { data: "📿", type: "emoji" }, max_lines: 1, text: "tỉnh mộng đi", text_color: "#F3F4F6", type: "static_content" } },
-                    { overlay_id: "caption:linh_lay_chong", source: "remote", caption: { background: { colors: ["#232526"] }, icon: { data: "💩", type: "emoji" }, max_lines: 1, text: "Lấy chồng hay ăn cứt", text_color: "#E0E0E0", type: "static_content" } },
-                    { overlay_id: "caption:linh_xinh_gai", source: "remote", caption: { background: { colors: ["#1F2937"] }, icon: { data: "🗣", type: "emoji" }, max_lines: 1, text: "Xinh gái đừng làm ktv", text_color: "#F3F4F6", type: "static_content" } },
-                    { overlay_id: "caption:linh_thu_hai", source: "remote", caption: { background: { colors: ["#232526"] }, icon: { data: "📅", type: "emoji" }, max_lines: 1, text: "Sao cứ đến thứ 2 suốt vậy...", text_color: "#E0E0E0", type: "static_content" } },
-                    { overlay_id: "caption:linh_ngay_nghi", source: "remote", caption: { background: { colors: ["#1F2937"] }, icon: { data: "🥳", type: "emoji" }, max_lines: 1, text: "ngày nghỉ của t đến rồi", text_color: "#F3F4F6", type: "static_content" } },
-                    { overlay_id: "caption:linh_lam_lop", source: "remote", caption: { background: { colors: ["#232526"] }, icon: { data: "🛞", type: "emoji" }, max_lines: 1, text: "Kỉ niệm 3 năm làm lốp", text_color: "#E0E0E0", type: "static_content" } },
-                    { overlay_id: "caption:linh_du_kho", source: "remote", caption: { background: { colors: ["#1F2937"] }, icon: { data: "😮‍💨", type: "emoji" }, max_lines: 1, text: "Chưa thấy tao đủ khổ à.", text_color: "#F3F4F6", type: "static_content" } },
-                    { overlay_id: "caption:linh_cu_buon", source: "remote", caption: { background: { colors: ["#232526"] }, icon: { data: "🖤", type: "emoji" }, max_lines: 1, text: "Thế đ.éo nào cứ buồn", text_color: "#E0E0E0", type: "static_content" } },
-                    { overlay_id: "caption:linh_doc_than", source: "remote", caption: { background: { colors: ["#1F2937"] }, icon: { data: "🧍‍♂️", type: "emoji" }, max_lines: 1, text: "Người ế thường độc thân", text_color: "#F3F4F6", type: "static_content" } },
-                    { overlay_id: "caption:linh_nho_anh", source: "remote", caption: { background: { colors: ["#232526"] }, icon: { data: "🥺", type: "emoji" }, max_lines: 1, text: "Thế không định nhớ anh à", text_color: "#E0E0E0", type: "static_content" } },
-                    { overlay_id: "caption:linh_serious", source: "remote", caption: { background: { colors: ["#1F2937"] }, icon: { data: "🤡", type: "emoji" }, max_lines: 1, text: "Why so serious", text_color: "#F3F4F6", type: "static_content" } }
+                    { overlay_id: "caption:linh_ngu_di", source: "remote", caption: { background: { colors: ["#232526", "#414345"] }, icon: { data: "😴", type: "emoji" }, max_lines: 1, text: "ngủ đi con", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:linh_tinh_mong", source: "remote", caption: { background: { colors: ["#3A1C71", "#D76D77", "#FFAF7B"] }, icon: { data: "📿", type: "emoji" }, max_lines: 1, text: "tỉnh mộng đi", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:linh_lay_chong", source: "remote", caption: { background: { colors: ["#3E2723", "#1B1B1B"] }, icon: { data: "💩", type: "emoji" }, max_lines: 1, text: "Lấy chồng hay ăn cứt", text_color: "#FFD1DC", type: "static_content" } },
+                    { overlay_id: "caption:linh_xinh_gai", source: "remote", caption: { background: { colors: ["#FF6B81", "#FF8E9E", "#FFB3C6"] }, icon: { data: "🗣", type: "emoji" }, max_lines: 1, text: "Xinh gái đừng làm ktv", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:linh_thu_hai", source: "remote", caption: { background: { colors: ["#1F4068", "#1B1B2F"] }, icon: { data: "📅", type: "emoji" }, max_lines: 1, text: "Sao cứ đến thứ 2 suốt vậy...", text_color: "#E43F5A", type: "static_content" } },
+                    { overlay_id: "caption:linh_ngay_nghi", source: "remote", caption: { background: { colors: ["#11998E", "#38EF7D"] }, icon: { data: "🥳", type: "emoji" }, max_lines: 1, text: "ngày nghỉ của t đến rồi", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:linh_lam_lop", source: "remote", caption: { background: { colors: ["#263238", "#455A64"] }, icon: { data: "🛞", type: "emoji" }, max_lines: 1, text: "Kỉ niệm 3 năm làm lốp", text_color: "#FFD700", type: "static_content" } },
+                    { overlay_id: "caption:linh_du_kho", source: "remote", caption: { background: { colors: ["#485563", "#29323c"] }, icon: { data: "😮‍💨", type: "emoji" }, max_lines: 1, text: "Chưa thấy tao đủ khổ à.", text_color: "#ECEFF1", type: "static_content" } },
+                    { overlay_id: "caption:linh_cu_buon", source: "remote", caption: { background: { colors: ["#141E30", "#243B55"] }, icon: { data: "🖤", type: "emoji" }, max_lines: 1, text: "Thế đ.éo nào cứ buồn", text_color: "#FF416C", type: "static_content" } },
+                    { overlay_id: "caption:linh_doc_than", source: "remote", caption: { background: { colors: ["#8E2DE2", "#4A00E0"] }, icon: { data: "🧍‍♂️", type: "emoji" }, max_lines: 1, text: "Người ế thường độc thân", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:linh_nho_anh", source: "remote", caption: { background: { colors: ["#F0B8CD", "#F7D4DF", "#E7C9EF"] }, icon: { data: "🥺", type: "emoji" }, max_lines: 1, text: "Thế không định nhớ anh à", text_color: "#70465B", type: "static_content" } },
+                    { overlay_id: "caption:linh_serious", source: "remote", caption: { background: { colors: ["#0F2027", "#203A43", "#2C5364"] }, icon: { data: "🤡", type: "emoji" }, max_lines: 1, text: "Why so serious", text_color: "#FFFFFF", type: "static_content" } }
                 ]
             }
         ])
