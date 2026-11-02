@@ -203,7 +203,7 @@ if (ua.includes("Locket")) {
         signup_allow_skip_add_friends: "true",
         signup_custom_profile_picture: "true",
         user_data_export_enabled: "true",
-        username_suggestions_enabled: "true",
+        username_suggestions_enabled: "true" // Đã xóa dấu phẩy thừa ở đây
     });
 
     // ============================================================
@@ -247,7 +247,7 @@ if (ua.includes("Locket")) {
         rollcall_profile_button: "true",
         rollcall_prompt_export_after_share: "true",
         rollcall_confirm_skip_tagging: "false",
-        rollcall_tap_to_tag_enabled: "false",
+        rollcall_tap_to_tag_enabled: "false"
     });
 
     // ============================================================
@@ -296,7 +296,7 @@ if (ua.includes("Locket")) {
         profile_menu_v2_enabled: "true"
     });
 
-// ============================================================
+    // ============================================================
     // 7. HỆ THỐNG, CACHE & STORAGE CDN
     // ============================================================
     Object.assign(obj.entries, {
@@ -334,10 +334,10 @@ if (ua.includes("Locket")) {
         use_thumbnails_for_sharing: "true",
         use_thumbnails_in_timeline: "true",
         persist_onboarding_step: "true",
-        onboarding_contact_permission_step: "true",
+        onboarding_contact_permission_step: "true"
     });
 
-// ============================================================
+    // ============================================================
     // 8. OVERLAY & CUSTOM CAPTIONS (ĐÃ GỘP ĐỦ ID)
     // ============================================================
     Object.assign(obj.entries, {
@@ -564,7 +564,7 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:xiu_ngang", source: "remote", caption: { background: { colors: ["#C0B7E5", "#D8D0F0", "#EACDE2"] }, icon: { data: "💀", type: "emoji" }, max_lines: 1, text: "xĩu ngang xĩu dọc", text_color: "#504567", type: "static_content" } },
                     { overlay_id: "caption:guc_nga", source: "remote", caption: { background: { colors: ["#3A1C71", "#D76D77"] }, icon: { data: "📉", type: "emoji" }, max_lines: 1, text: "Gục ngã", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:bat_luc", source: "remote", caption: { background: { colors: ["#2C3E50", "#3498DB"] }, icon: { data: "🏳️", type: "emoji" }, max_lines: 1, text: "Bất lực", text_color: "#FFFFFF", type: "static_content" } },
-                    { overlay_id: "caption:rot_nuoc_mat", source: "remote", caption: { background: { colors: ["#1CB5E0", "#000046"] }, icon: { data: "😭", type: "emoji" }, max_lines: 1, text: "Rớt nước mắt", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:rot_nuoc_mat_2", source: "remote", caption: { background: { colors: ["#1CB5E0", "#000046"] }, icon: { data: "😭", type: "emoji" }, max_lines: 1, text: "Rớt nước mắt", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:tien_dinh", source: "remote", caption: { background: { colors: ["#FF9A8B", "#FF6A88"] }, icon: { data: "🌪️", type: "emoji" }, max_lines: 1, text: "Tiền đình", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:nao_bao_tri", source: "remote", caption: { background: { colors: ["#B8E0D2", "#D8EAD8", "#C9D9F0"] }, icon: { data: "🧠", type: "emoji" }, max_lines: 1, text: "não đang bảo trì", text_color: "#35564F", type: "static_content" } },
                     { overlay_id: "caption:overthinking_vai_chuong", source: "remote", caption: { background: { colors: ["#2C3E50", "#4CA1AF"] }, icon: { data: "🤯", type: "emoji" }, max_lines: 1, text: "Overthinking vai chưởng", text_color: "#FFFFFFE6", type: "static_content" } },
@@ -735,5 +735,6 @@ if (ua.includes("Locket")) {
             }
         ])
     });
+}
 
 $done({ body: JSON.stringify(obj) });
