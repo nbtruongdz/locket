@@ -717,7 +717,7 @@ if (ua.includes("Locket")) {
                 ]
             },
                         {
-                section: "🥀 Linh ta linh tinh,NBT ✨",
+                section: "🥀 Linh ta linh tinh by NBT ✨",
                 items: [
                     { overlay_id: "caption:linh_ngu_di", source: "remote", caption: { background: { colors: ["#232526", "#414345"] }, icon: { data: "😴", type: "emoji" }, max_lines: 1, text: "ngủ đi con", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:linh_tinh_mong", source: "remote", caption: { background: { colors: ["#3A1C71", "#D76D77", "#FFAF7B"] }, icon: { data: "📿", type: "emoji" }, max_lines: 1, text: "tỉnh mộng đi", text_color: "#FFFFFF", type: "static_content" } },
