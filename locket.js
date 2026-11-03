@@ -730,7 +730,8 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:linh_cu_buon", source: "remote", caption: { background: { colors: ["#141E30", "#243B55"] }, icon: { data: "🖤", type: "emoji" }, max_lines: 1, text: "Thế đ.éo nào cứ buồn", text_color: "#FF416C", type: "static_content" } },
                     { overlay_id: "caption:linh_doc_than", source: "remote", caption: { background: { colors: ["#8E2DE2", "#4A00E0"] }, icon: { data: "🧍‍♂️", type: "emoji" }, max_lines: 1, text: "Người ế thường độc thân", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:linh_nho_anh", source: "remote", caption: { background: { colors: ["#F0B8CD", "#F7D4DF", "#E7C9EF"] }, icon: { data: "🥺", type: "emoji" }, max_lines: 1, text: "Thế không định nhớ anh à", text_color: "#70465B", type: "static_content" } },
-                    { overlay_id: "caption:linh_serious", source: "remote", caption: { background: { colors: ["#0F2027", "#203A43", "#2C5364"] }, icon: { data: "🤡", type: "emoji" }, max_lines: 1, text: "Why so serious", text_color: "#FFFFFF", type: "static_content" } }
+                    { overlay_id: "caption:linh_serious", source: "remote", caption: { background: { colors: ["#0F2027", "#203A43", "#2C5364"] }, icon: { data: "🤡", type: "emoji" }, max_lines: 1, text: "Why so serious", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:toxinloi", source: "remote", caption: { background: { colors: ["#3A1C71", "#D76D77", "#FFAF7B"] }, icon: { data: "🥹", type: "emoji" }, max_lines: 1, text: "tớ xinh lỗi cậu", text_color: "#FFFFFF", type: "static_content" } }
                 ]
             }
         ])
